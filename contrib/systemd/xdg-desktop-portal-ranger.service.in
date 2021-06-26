@@ -1,0 +1,10 @@
+[Unit]
+Description=Portal service (ranger implementation)
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.ranger
+ExecStart=@libexecdir@/xdg-desktop-portal-ranger
+Restart=on-failure

@@ -1,0 +1,3 @@
+[filechooser]
+term_cmd=/usr/bin/kitty
+filechooser_script=/usr/share/xdg-desktop-portal-ranger/ranger-wrapper.sh
